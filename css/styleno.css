@@ -1,0 +1,64 @@
+html {
+    font-size: 62.5%; /* Tamaño de los REM */
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(../image/8fb7ea5d69fc4c1eec882a912498adb3.jpg);
+    background-size: 100%;
+    font-size: 16px;
+    font-family: "space mono";
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(32, 32, 32);
+}
+
+p {
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 15px;
+    width: 35em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+img {
+    max-width: 100px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+}
+
+a {
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.boton1 {
+    width: 8em;
+    padding: 17px 5px;
+    margin: 10px 15px 0px 15px;
+    border-radius: 15px;
+    background-color: #58c256;
+}
